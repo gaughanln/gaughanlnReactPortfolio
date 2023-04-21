@@ -1,8 +1,8 @@
-import React, { useState } from "react";
+import React, { useState } from 'react';
 
-import "bootstrap/dist/css/bootstrap.min.css";
-import "./App.css";
-import Header from "./components/Header";
+import 'bootstrap/dist/css/bootstrap.min.css';
+import './App.css';
+import Header from './components/Header';
 import About from './components/About';
 import Projects from './components/Projects';
 import Contact from './components/Contact';
@@ -10,16 +10,16 @@ import Home from './components/Home';
 // import all components
 
 function App() {
-  const [currentPage, setCurrentPage] = useState("Home");
+  const [currentPage, setCurrentPage] = useState('Home');
 
   const renderPage = () => {
-    if (currentPage === "Home") {
+    if (currentPage === 'Home') {
       return <Home />;
     }
-    if (currentPage === "About") {
+    if (currentPage === 'About') {
       return <About />;
     }
-    if (currentPage === "Projects") {
+    if (currentPage === 'Projects') {
       return <Projects />;
     }
     return <Contact />;

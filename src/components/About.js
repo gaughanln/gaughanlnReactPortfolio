@@ -2,12 +2,13 @@ import React from 'react';
 
 
 
-function Home() {
+function About() {
 return (
 <div>
 
 {/* Background, photo, name, header, icons */}
 
+hey this is aboyut
 </div>
 
 
@@ -15,4 +16,4 @@ return (
 )
 }
 
-// 
+export default About

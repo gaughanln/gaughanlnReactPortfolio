@@ -9,11 +9,111 @@ body {
   background-attachment: fixed;
   min-height: 100vh;
   min-width: 100%;
+  
 /*
   width: 100%;
   height: auto; */
 }
+h1 {color: white;}
+
+p {color: white;}
+
+.header-logo {
+  margin: 10px
+}
 
 .home-name {
-  width: 50%;
+  width: 100%;
+}
+
+.home-photo {
+   width: 100%;
+}
+
+.about-photo {
+  width: 75%;
+}
+.about-me {
+    font-size: 22px;
+    line-height: 1.4;
+    width: 80%;    
+  }
+
+  .quote-wrapper {
+    height: 100%;
+    position: relative;
+    width: 80%;
+  }
+
+
+.box {
+  background-color: rgba(255, 255, 255, 0.25);
+padding: 10px;
+overflow: hidden;
+border: none
+}
+/* 
+$container-max-widths: (
+  sm: 540px,
+  md: 720px,
+  lg: 960px,
+  xl: 1140px,
+  xxl: 1320px
+);
+
+$grid-breakpoints: (
+  xs: 0,
+  sm: 576px,
+  md: 768px,
+  lg: 992px,
+  xl: 1200px,
+  xxl: 1400px
+); */
+
+
+.nav-link {
+color: white;
+text-decoration: none;
+}
+
+/* this isn't working */
+ul li a:active  {
+  font-weight: bolder;
+  color:white;
+  text-decoration: none;
+}
+.btn {
+  font-weight: bolder;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  margin-top: 10%;
+  margin-left: 5%;
+}
+
+.icon {
+  padding: 5px;
+}
+
+.icon-nav {
+  margin-left: 5px;
+  padding: 5px;
+}
+
+.card {
+  max-width: 25%;
+  height: fit-content;
+}
+
+.card-body {
+  word-wrap:normal;
+  width: 100%;
+  color: white;
+}
+
+.project-links {
+  color: white;
+text-decoration: none;
 }

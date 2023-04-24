@@ -5,89 +5,131 @@ import linkedin from "./assets/linkedin.png";
 
 function Header({ currentPage, handlePageChange }) {
   return (
-    <nav class="navbar navbar- pt-3 ">
-      {/*     // TODO update nav class - the pt-3 is bootstraps padding utility
-       */}
-      <div class="navbar-brand">
-        {currentPage !== "Home" && (
-          <img src={namePNG} class = "header-logo" width="300" height="125" alt="Lindsey Gaughan" />
-        )}
-      </div>
-      {/* <!-- TODO update links, color and size --> */}
-      <ul class="nav justify-content-end ">
-        <li class="nav-item ">
-          <a
-            class="nav-link"
-            href="#home"
-            onClick={() => handlePageChange("Home")}
-          >
-            Home
-          </a>
-        </li>
-        <li class="nav-item">
-          <a
-            class="nav-link"
-            href="#about"
-            onClick={() => handlePageChange("About")}
-          >
-            About me
-          </a>
-        </li>
-        <li class="nav-item">
-          <a
-            class="nav-link"
-            href="#projects"
-            onClick={() => handlePageChange("Projects")}
-          >
-            Projects
-          </a>
-        </li>
-        <li class="nav-item">
-          <a
-            class="nav-link"
-            href="#contact"
-            onClick={() => handlePageChange("Contact")}
-          >
-            Contact
-          </a>
-        </li>
-
-        <li class="nav-item">
-          {/* // TODO <!-- make this bold & link to downloadable pdf --> */}
-          <button type="button" href="/#" class="nav-link btn btn-primary">
-            Resume
-          </button>
-        </li>
-
-        <div class="navbar-brand">
-          <li class="nav-item">
-            {currentPage !== "Home" && (
-              <img
-                src={github}
-                width="40"
-                height="40"
-                class="icon-nav"
-                alt="github icon"
-              />
-            )}
-          </li>
-          </div>
-
-          <div class="navbar-brand">
-          <li class="nav-item">
-            {currentPage !== "Home" && (
-              <img
-                src={linkedin}
-                width="40"
-                height="40"
-                class="icon-nav"
-                alt="linkedin icon"
-              />
-            )}
-          </li>
+    <>
+      <nav className="navbar navbar- pt-3 ">
+        {/*     // TODO update nav className - the pt-3 is bootstraps padding utility
+         */}
+        <div className="navbar-brand">
+          {currentPage !== "Home" && (
+            <img
+              src={namePNG}
+              className="header-logo"
+              width="300"
+              height="125"
+              alt="Lindsey Gaughan"
+            />
+          )}
         </div>
-      </ul>
-    </nav>
+
+        <ul className="nav justify-content-end ">
+          {/* home */}
+          <li className="nav-item ">
+            <a
+              className="nav-link"
+              href="#home"
+              onClick={() => handlePageChange("Home")}
+            >
+              Home
+            </a>
+          </li>
+
+          {/* about me */}
+          {/* <li className="nav-item">
+            <a className="nav-link" href="#about" onClick={() => handlePageChange("About")}>
+              About me
+            </a>
+          </li> */}
+
+          {/* projects */}
+          <li className="nav-item">
+            <a className="nav-link" href="#projects" onClick={() => handlePageChange("Projects")}>
+              Projects
+            </a>
+
+            {/* contact */}
+          </li>
+          <li className="nav-item">
+            <a className="nav-link" href="#contact" onClick={() => handlePageChange("Contact")} >
+              Contact
+            </a>
+          </li>
+
+          {/* resume */}
+          {/* this link isn't working?? */}
+          <li className="nav-item">
+            <a
+              className="nav-link resume rounded-pill"
+              href="https://www.dropbox.com/s/0rf569rhwhkq6fg/Lindsey%20Gaughan%20Resume%2023.pdf?dl=0"
+              target="_blank"
+            >
+              Resume
+            </a>
+          </li>
+
+          {/* github icon */}
+          {/* <div className="navbar-brand">
+            <li className="nav-item">
+              {currentPage !== "Home" && (
+                <a href="https://github.com/gaughanln" target="_blank">
+                  <img
+                    src={github}
+                    width="40"
+                    height="40"
+                    className="icon-nav "
+                    alt="github icon"
+                  />
+                </a>
+              )}
+            </li>
+          </div> */}
+
+          {/* linkedin icon */}
+          {/* <div className="navbar-brand">
+            <li className="nav-item">
+              {currentPage !== "Home" && (
+                <a
+                  href="https://www.linkedin.com/in/gaughanln/"
+                  target="_blank"
+                >
+                  <img
+                    src={linkedin}
+                    width="40"
+                    height="40"
+                    className="icon-nav"
+                    alt="linkedin icon"
+                  />
+                </a>
+              )}
+            </li>
+          </div> */}
+        </ul>
+      </nav>
+
+      {/* footer */}
+      <div class="container footer-container">
+        <footer class="d-flex flex-wrap justify-content-center align-items-center  border-top">
+          <a href="https://www.linkedin.com/in/gaughanln/" target="_blank">
+            <img
+              src={linkedin}
+              width="40"
+              height="40"
+              className="icon-nav"
+              alt="linkedin icon"
+            />
+          </a>
+
+          <a href="https://github.com/gaughanln" target="_blank">
+            <img
+              src={github}
+              width="40"
+              height="40"
+              className="icon-nav "
+              alt="github icon"
+            />
+          </a>
+        </footer>
+      </div>
+    </>
   );
 }
 

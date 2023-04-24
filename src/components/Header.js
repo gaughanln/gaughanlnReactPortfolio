@@ -7,8 +7,8 @@ function Header({ currentPage, handlePageChange }) {
   return (
     <>
       <nav className="navbar navbar- pt-3 ">
-        {/*     // TODO update nav className - the pt-3 is bootstraps padding utility
-         */}
+     
+     {/* name logo in nav bar */}
         <div className="navbar-brand">
           {currentPage !== "Home" && (
             <img
@@ -21,35 +21,35 @@ function Header({ currentPage, handlePageChange }) {
           )}
         </div>
 
-        <ul className="nav justify-content-end ">
+        <ul className="nav justify-content-center ">
           {/* home */}
           <li className="nav-item ">
             <a
-              className="nav-link"
+              className="nav-link rounded-pill"
               href="#home"
-              onClick={() => handlePageChange("Home")}
-            >
+              onClick={() => handlePageChange("Home")}>
               Home
             </a>
           </li>
 
-          {/* about me */}
-          {/* <li className="nav-item">
-            <a className="nav-link" href="#about" onClick={() => handlePageChange("About")}>
-              About me
-            </a>
-          </li> */}
-
           {/* projects */}
           <li className="nav-item">
-            <a className="nav-link" href="#projects" onClick={() => handlePageChange("Projects")}>
+            <a
+              className="nav-link rounded-pill"
+              href="#projects"
+              onClick={() => handlePageChange("Projects")}
+            >
               Projects
             </a>
 
             {/* contact */}
           </li>
           <li className="nav-item">
-            <a className="nav-link" href="#contact" onClick={() => handlePageChange("Contact")} >
+            <a
+              className="nav-link rounded-pill"
+              href="#contact"
+              onClick={() => handlePageChange("Contact")}
+            >
               Contact
             </a>
           </li>
@@ -66,42 +66,7 @@ function Header({ currentPage, handlePageChange }) {
             </a>
           </li>
 
-          {/* github icon */}
-          {/* <div className="navbar-brand">
-            <li className="nav-item">
-              {currentPage !== "Home" && (
-                <a href="https://github.com/gaughanln" target="_blank">
-                  <img
-                    src={github}
-                    width="40"
-                    height="40"
-                    className="icon-nav "
-                    alt="github icon"
-                  />
-                </a>
-              )}
-            </li>
-          </div> */}
-
-          {/* linkedin icon */}
-          {/* <div className="navbar-brand">
-            <li className="nav-item">
-              {currentPage !== "Home" && (
-                <a
-                  href="https://www.linkedin.com/in/gaughanln/"
-                  target="_blank"
-                >
-                  <img
-                    src={linkedin}
-                    width="40"
-                    height="40"
-                    className="icon-nav"
-                    alt="linkedin icon"
-                  />
-                </a>
-              )}
-            </li>
-          </div> */}
+        
         </ul>
       </nav>
 

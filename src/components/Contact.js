@@ -1,9 +1,7 @@
 import React from "react";
-import contact from "./assets/inTouch.png"
+import contact from "./assets/inTouch.png";
 
-{
-  /* Email, github, fields for someone to contact including name, email and message */
-}
+
 
 // const form = document.querySelector('#contact-form');
 //   form.addEventListener('submit', (e) => {
@@ -14,63 +12,71 @@ import contact from "./assets/inTouch.png"
 function Contact() {
   return (
     <>
-    <div className = "container contact-container ">
-      <div className = "col-6">
+      <div className="container contact-container ">
+        <div className="row h-100">
+          <div className="col-md-6">
+            {/* contact graphic */}
+            <img
+              src={contact}
+              class="contact-pic visible-lg"
+              alt=" contact graphic"
+            />
+          </div>
 
-        <img src = {contact} class = "contact-pic visible-lg" alt=" contact graphic" />
-      </div>
+          {/* contact form */}
+          <div className="col-6">
+            <div class="row align-items-center d-flex justify-content-center ">
+              <div class="mx-auto col-10 col-md-8 col-lg-6">
+                <h3>Want to get in touch?</h3>
+                <h4>Fill out the form below and let's connect!</h4>
+                <br />
+                <form class="form" id="contact-form">
+                  
+                  {/* name */}
+                  <div class="mb-3">
+                    <label for="name" class="form-label">
+                      Your name
+                    </label>
+                    <input type="name" class="form-control contact" />
+                  </div>
 
-      <div className = "col-6">
-      <div class="row align-items-center ">
-        <div class="mx-auto col-10 col-md-8 col-lg-6">
-          <h3>Want to get in touch?</h3>
-          <h4>Fill out the form below and let's connect!</h4>
-          <br/>
-          <form class="form" id="contact-form">
+                  {/* email */}
+                  <div class="mb-3">
+                    <label for="email" class="form-label">
+                      Email address
+                    </label>
+                    <input
+                      type="email"
+                      class="form-control contact"
+                      placeholder="name@example.com"
+                    />
+                  </div>
 
-            <div class="mb-3">
-              <label for="name" class="form-label">
-                Your name
-              </label>
-              <input type="name" class="form-control contact"  />
+                  {/* message */}
+                  <div class="mb-3">
+                    <label for="message" class="form-label">
+                      I'd love to hear from you!
+                    </label>
+                    <textarea class="form-control contact" rows="8"></textarea>
+                  </div>
+
+                  <button
+                    type="submit"
+                    class="btn rounded-pill"
+                    data-toggle="modal"
+                    data-target="#modalCenter"
+                  >
+                    Submit
+                  </button>
+                </form>
+              </div>
             </div>
-
-            <div class="mb-3">
-              <label for="email" class="form-label">
-                Email address
-              </label>
-              <input
-                type="email"
-                class="form-control contact"
-                placeholder="name@example.com"
-              />
-            </div>
-
-            <div class="mb-3">
-              <label for="message" class="form-label">
-                I'd love to hear from you!
-              </label>
-              <textarea
-                class="form-control contact"
-                rows="8"
-              ></textarea>
-            </div>
-
-            <button type="submit" class="btn rounded-pill" data-toggle="modal" data-target="#modalCenter">
-              Submit
-            </button>
-          </form>
+          </div>
         </div>
-        </div>
-      </div>
       </div>
 
-
-
-
-
-{/* <!-- Modal on submit--> */}
-{/* <div class="modal fade modal-contact" id="modalCenter" tabindex="-1" role="dialog" aria-labelledby="thankYou" aria-hidden="true">
+      {/* <!-- Modal on submit--> */}
+      {/* <div class="modal fade modal-contact" id="modalCenter" tabindex="-1" role="dialog" aria-labelledby="thankYou" aria-hidden="true">
   <div class="modal-dialog modal-dialog-centered" role="message">
     <div class="modal-content">
       <div class="modal-header">
@@ -89,9 +95,6 @@ function Contact() {
     </div>
   </div>
 </div> */}
-
-
-
     </>
   );
 }

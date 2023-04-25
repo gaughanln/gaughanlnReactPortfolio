@@ -19,7 +19,7 @@ function About() {
             to any project.
             <br/>
             <br/>
-            Fun fact: I've recently become an obsessive plant mom
+            When I'm not sitting in front of the computer you can usually find me at the gym, plant shopping, hanging with friends or traveling.
           </p>
         </div>
       </div>

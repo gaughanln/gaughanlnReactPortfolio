@@ -17,8 +17,16 @@ body {
 h1,
 p,
 h3,
-h4 {
+h4, h6 {
   color: white;
+}
+
+li {
+  list-style: none;
+}
+
+.skills {
+  font-weight: lighter;
 }
 
 .navbar {
@@ -117,6 +125,7 @@ border: none;
 .resume {
   font-weight: bolder;
   background-color: blueviolet;
+  margin-bottom: 10px;
 
 }
 
@@ -129,17 +138,11 @@ border: none;
 }
 
 .resume-skills {
-  margin-top: 5%;
+  margin-top: 2%;
   font-size: 22px;
   font-weight: bold;
   line-height: 1.4;
   /* width: 80%; */
-}
-
-
-
-.icon {
-  padding: 5px;
 }
 
 .icon-nav {
@@ -161,6 +164,7 @@ border: none;
   margin: 15px;
   font-weight: bold;
   background-color:blueviolet;
+  font-size: 22px;
 }
 
 .card-text {
@@ -194,18 +198,16 @@ font-size: 22px;
   color: white;
 }
 
-/* .modal-body {
-  background-color: #8a2bf9;
-} */
 
 
-.footer-container {
+
+/* .footer-container {
   display: flex;
   justify-content: center;
-}
+} */
 
 .footer {
-  position: fixed;
+  position:fixed;
   bottom: 0;
   width: 80%;
   height: 60px;   

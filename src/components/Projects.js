@@ -93,14 +93,14 @@ function Projects() {
             {projectData.map((project) => (
               <div id={project.id} class="card text-center">
                 <div class="row">
-                  <div class="col-5">
+                  <div class="col-md-7">
                     <img
                       src={project.image}
                       class="project-images rounded"
                       alt={project.title}
                     />
                   </div>
-                  <div class="col-7">
+                  <div class="col-md-5">
                     <h3 class="card-title">{project.title}</h3>
                     <p class="card-text">{project.description}</p>
                     <a

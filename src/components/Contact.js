@@ -37,7 +37,7 @@ function Contact() {
                     <label for="name" class="form-label">
                       Your name
                     </label>
-                    <input type="name" class="form-control contact" />
+                    <input type="name" class="form-control contact" required />
                   </div>
 
                   {/* email */}
@@ -48,7 +48,7 @@ function Contact() {
                     <input
                       type="email"
                       class="form-control contact"
-                      placeholder="name@example.com"
+                      placeholder="name@example.com" required
                     />
                   </div>
 
@@ -57,8 +57,10 @@ function Contact() {
                     <label for="message" class="form-label">
                       I'd love to hear from you!
                     </label>
-                    <textarea class="form-control contact" rows="8"></textarea>
+                    <textarea class="form-control contact" rows="8" required ></textarea>
                   </div>
+
+
 
                   <button
                     type="submit"
@@ -69,6 +71,8 @@ function Contact() {
                     Submit
                   </button>
                 </form>
+                <br />
+                <h6>This form is under construction! in the meantime, you can just shoot me an email at gaughanln@yahoo.com</h6>
               </div>
             </div>
           </div>

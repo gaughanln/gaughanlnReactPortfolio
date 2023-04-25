@@ -4,13 +4,13 @@ import skills from "./assets/skills.png"
 const resumeLink = ('https://www.dropbox.com/s/0rf569rhwhkq6fg/Lindsey%20Gaughan%20Resume%2023.pdf?dl=0');
 
 
-Skills [{
-  technical {[  html, CSS, JavaScript, bootstrap, materialize, JSON, CRUD, REST, jQuery, Git, MySQL, MongoDB, Mongoose, Express, VS Code, Adobe Creative Suite (Photoshop + Illustrator), Canva, Microsoft Office and Camtasia]}
+// Skills [{
+//   technical {[  html, CSS, JavaScript, bootstrap, materialize, JSON, CRUD, REST, jQuery, Git, MySQL, MongoDB, Mongoose, Express, VS Code, Adobe Creative Suite (Photoshop + Illustrator), Canva, Microsoft Office and Camtasia]}
   
-  },
+//   },
 
-}
-]
+// }
+// ]
 
 
 

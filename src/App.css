@@ -63,6 +63,38 @@ h4 {
   border: none;
 }
 
+.card-title {
+  color: white;
+  font-weight: bolder;
+}
+
+.card {
+  background-color: var(--opacity);
+  padding: 20px;
+  /* max-width: 40%; */
+  border: none;
+  margin-bottom: 30px;
+  max-width: 90%;
+  margin-top: 5%;
+}
+
+.project-box {
+  position: inherit;
+}
+
+.list-group-item {
+  background-color: var(--opacity);
+color: white;
+font-size: 25px;
+margin: 2px;
+border: none;
+}
+
+.project-images {
+  margin-bottom: 10px;
+  max-width: 100%;
+}
+
 .nav-link {
   color: white;
   text-decoration: none;
@@ -104,10 +136,7 @@ h4 {
   /* width: 80%; */
 }
 
-.carousel {
-max-width: 50%;
 
-}
 
 .icon {
   padding: 5px;
@@ -118,47 +147,29 @@ max-width: 50%;
   padding: 5px;
 }
 
+.list-group {
+  position: fixed;
+  margin-left: 10%;
+  padding-top: 3%;
+  
+}
+
 .project-links {
   color: white;
   text-decoration: none;
-  padding: 15px;
+  padding: 10px;
+  margin: 15px;
   font-weight: bold;
+  background-color:blueviolet;
 }
 
-#carousel {
-  margin-top: 15%;
-  /* max-width: 50%; */
-}
-
-/* #carouselExampleCaptions {
-  justify-content: center;
-  align-items: center;
-  display: flex;
-} */
-
-.carousel-item {
-  /* margin-top: 30%; */
-  /* position: fixed;
-  float: none;
-  width: 50%; */
-  background-color: var(--opacity);
-  padding: 6%;
-  border: none;
-}
-
-.carousel-caption {
-  position: relative;
-  left: 0;
-  top: 0;
+.card-text {
+font-size: 22px;
 }
 
 .project-links:hover {
   color: aliceblue;
   font-weight: bolder;
-}
-
-.carousel-indicators {
-  padding-top: 50px;
 }
 
 .btn {
@@ -199,3 +210,4 @@ max-width: 50%;
   width: 80%;
   height: 60px;   
 }
+

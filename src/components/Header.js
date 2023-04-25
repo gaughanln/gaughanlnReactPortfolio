@@ -1,14 +1,11 @@
 import React from "react";
 import namePNG from "./assets/name.png";
-import github from "./assets/github.png";
-import linkedin from "./assets/linkedin.png";
 
 function Header({ currentPage, handlePageChange }) {
   return (
     <>
       <nav className="navbar navbar- pt-3 ">
-     
-     {/* name logo in nav bar */}
+        {/* name logo in nav bar */}
         <div className="navbar-brand">
           {currentPage !== "Home" && (
             <img
@@ -25,9 +22,11 @@ function Header({ currentPage, handlePageChange }) {
           {/* home */}
           <li className="nav-item ">
             <a
-              className="nav-link rounded-pill"
+              className="nav-link active rounded-pill"
+              aria-current="true"
               href="#home"
-              onClick={() => handlePageChange("Home")}>
+              onClick={() => handlePageChange("Home")}
+            >
               Home
             </a>
           </li>
@@ -55,23 +54,21 @@ function Header({ currentPage, handlePageChange }) {
           </li>
 
           {/* resume */}
-          {/* this link isn't working?? */}
+
           <li className="nav-item">
             <a
               className="nav-link resume rounded-pill"
-              href="https://www.dropbox.com/s/0rf569rhwhkq6fg/Lindsey%20Gaughan%20Resume%2023.pdf?dl=0"
-              target="_blank"
+              href="#resume"
+              onClick={() => handlePageChange("Resume")}
             >
               Resume
             </a>
           </li>
-
-        
         </ul>
       </nav>
 
       {/* footer */}
-      <div class="container footer-container">
+      {/* <div class="container footer-container">
         <footer class="d-flex flex-wrap justify-content-center align-items-center  border-top">
           <a href="https://www.linkedin.com/in/gaughanln/" target="_blank">
             <img
@@ -93,7 +90,7 @@ function Header({ currentPage, handlePageChange }) {
             />
           </a>
         </footer>
-      </div>
+      </div> */}
     </>
   );
 }

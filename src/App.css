@@ -1,3 +1,7 @@
+:root {
+  --opacity: rgba(255, 255, 255, 0.25);
+}
+
 body {
   /* display: flex; */
   background-image: url("./components/assets/gradientBackground.png");
@@ -26,10 +30,11 @@ h4 {
 .home-name,
 .home-photo {
   width: 100%;
+  margin-top: 12%;
 }
 
 .home-name {
-  margin-top: 12%;
+  /* margin-top: 12%; */
   padding-bottom: 10px;
 }
 
@@ -52,7 +57,7 @@ h4 {
 }
 
 .box {
-  background-color: rgba(255, 255, 255, 0.25);
+  background-color: var(--opacity);
   padding: 10px;
   overflow: hidden;
   border: none;
@@ -64,10 +69,11 @@ h4 {
   font-size: x-large;
 }
 
-.nav-link:active {
+.active:active {
   font-weight: bolder;
   color: pink;
   text-decoration: none;
+  background-color: var(--opacity);
 }
 
 .nav-link:hover {
@@ -79,20 +85,28 @@ h4 {
 .resume {
   font-weight: bolder;
   background-color: blueviolet;
+
 }
 
-.home-container {
+.home-container, .contact-container, .resume-container {
   padding-top: 5%;
 }
 
-
-.contact-container {
-  padding-top: 5%;
+.resume-container {
+  width: 50%;
 }
 
-.footer-container {
-  display: flex;
-  justify-content: center;
+.resume-skills {
+  margin-top: 5%;
+  font-size: 22px;
+  font-weight: bold;
+  line-height: 1.4;
+  /* width: 80%; */
+}
+
+.carousel {
+max-width: 50%;
+
 }
 
 .icon {
@@ -113,11 +127,21 @@ h4 {
 
 #carousel {
   margin-top: 15%;
+  /* max-width: 50%; */
 }
+
+/* #carouselExampleCaptions {
+  justify-content: center;
+  align-items: center;
+  display: flex;
+} */
 
 .carousel-item {
   /* margin-top: 30%; */
-  background-color: rgba(255, 255, 255, 0.25);
+  /* position: fixed;
+  float: none;
+  width: 50%; */
+  background-color: var(--opacity);
   padding: 6%;
   border: none;
 }
@@ -144,7 +168,7 @@ h4 {
 }
 
 .contact {
-  background-color: rgba(255, 255, 255, 0.25);
+  background-color: var(--opacity);
   border-style: none;
   opacity: 50%;
 }
@@ -163,10 +187,15 @@ h4 {
   background-color: #8a2bf9;
 } */
 
-footer {
-  position: absolute;
+
+.footer-container {
+  display: flex;
+  justify-content: center;
+}
+
+.footer {
+  position: fixed;
   bottom: 0;
-  width: 70%;
-  /* height: 30px; */
-  color: #fff;
+  width: 80%;
+  height: 60px;   
 }

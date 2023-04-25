@@ -3,10 +3,12 @@ import React, { useState } from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './App.css';
 import Header from './components/Header';
-import About from './components/About';
+import Footer from './components/Footer'
+// import About from './components/About';
 import Projects from './components/Projects';
 import Contact from './components/Contact';
 import Home from './components/Home';
+import Resume from './components/Resume'
 // import all components
 
 function App() {
@@ -15,14 +17,11 @@ function App() {
   const renderPage = () => {
     if (currentPage === 'Home') {
       return <Home />;
-    }
-    // if (currentPage === 'About') {
-    //   return <About />;
-    // }
-    if (currentPage === 'Projects') {
+    } if (currentPage === 'Projects') {
       return <Projects />;
-    }
-    return <Contact />;
+    }  if (currentPage === 'Resume') {
+      return <Resume />;
+    } return <Contact />;
   };
   const handlePageChange = (page) => setCurrentPage(page);
 
@@ -30,6 +29,7 @@ function App() {
     <div>
       {/* We are passing the currentPage from state and the function to update it */}
       <Header currentPage={currentPage} handlePageChange={handlePageChange} />
+      <Footer />
       {/* Here we are calling the renderPage method which will return a component  */}
       {renderPage()}
     </div>

@@ -43,7 +43,7 @@ li {
 
 .home-name {
   /* margin-top: 12%; */
-  padding-bottom: 10px;
+  margin-bottom: 30px;
 }
 
 .contact-pic {
@@ -74,6 +74,8 @@ li {
 .card-title {
   color: white;
   font-weight: bolder;
+  margin-top: 10%;
+  margin-bottom: 10%;
 }
 
 .card {
@@ -169,6 +171,7 @@ border: none;
 
 .card-text {
 font-size: 22px;
+margin-bottom: 10%;
 }
 
 .project-links:hover {

@@ -106,6 +106,8 @@ function Projects() {
                     <p className="card-text">{project.description}</p>
                     <a
                       href={project.github}
+                      target="_blank"
+                      rel="noreferrer"
                       className="project-links rounded-pill"
                     >
                       github
@@ -114,6 +116,8 @@ function Projects() {
                     {project.website && (
                       <a
                         href={project.website}
+                        target="_blank"
+                        rel="noreferrer"
                         className="project-links rounded-pill"
                       >
                         Website

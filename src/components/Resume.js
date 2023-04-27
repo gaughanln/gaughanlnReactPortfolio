@@ -1,70 +1,50 @@
 import React from "react";
 import skills from "./assets/skills.png";
-import resume from './assets/gaughanlnResume.pdf';
-
-const resumeLink =
-  "https://www.dropbox.com/s/0rf569rhwhkq6fg/Lindsey%20Gaughan%20Resume%2023.pdf?dl=0";
-
-// Skills [{
-//   technical {[  html, CSS, JavaScript, bootstrap, materialize, JSON, CRUD, REST, jQuery, Git, MySQL, MongoDB, Mongoose, Express, VS Code, Adobe Creative Suite (Photoshop + Illustrator), Canva, Microsoft Office and Camtasia]}
-
-//   },
-
-// }
-// ]
+import resume from "./assets/gaughanlnResume.pdf";
 
 function Resume() {
+  const skillsData = [
+    {
+      id: "1",
+      type: "Technical Skills / Software",
+      skills:
+        "html, CSS, JavaScript, bootstrap, materialize, JSON, CRUD, REST, jQuery, Git, MySQL, MongoDB, Mongoose, Express VS Code, Adobe Creative Suite (Photoshop + Illustrator), Canva, Microsoft Office and Camtasia",
+    },
+    {
+      id: "2",
+      type: "Adaptability",
+      skills:
+        "Proficient working alone or as a team. Able to work on multiple projects at once. Work well under pressure and able to handle tight deadlines.",
+    },
+    {
+      id: "3",
+      type: "Communication",
+      skills:
+        "Takes direction and welcomes feedback. Can convey and present ideas to an audience. Adept presenter and comfortable in front of groups.",
+    },
+  ];
+
   return (
     <>
       <div className="container contact-container ">
         <div className="row h-100">
           <div className="col-md-6 my-auto text-center">
-            <a href = {resume} download = "LindseyGaughanResume" target ="_blank">
-            <button type="button" className="btn btn-lg resume rounded-pill">
-              Download Resume
-            </button>
+            <a href={resume} download="LindseyGaughanResume" target="_blank">
+              <button type="button" className="btn btn-lg resume rounded-pill">
+                Download Resume 💾
+              </button>
             </a>
 
-            <p className="box rounded resume-skills text-center">
-              Technical Skills / Software
-              <br />
-              <span class ="skills">html, CSS, JavaScript, bootstrap, materialize, JSON, CRUD, REST,
-              jQuery, Git, MySQL, MongoDB, Mongoose, Express VS Code, Adobe
-              Creative Suite (Photoshop + Illustrator), Canva, Microsoft Office
-              and Camtasia</span>
-            </p>
-            <br />
-
-            <p className="box rounded resume-skills text-center">
-              Adaptability
-              <br />
-              <ul>
-                <span class = "skills">
-                <li>Proficient working alone or as a team. </li>
-                <li> Able to work on multiple projects at once.</li>
-                <li>
-                  Work well under pressure and able to handle tight deadlines.
-                </li>
-                </span>
-              </ul>
-            </p>
-
-            <br />
-
-            <p className="box rounded resume-skills text-center">
-              Communication
-              <br />
-              <ul> 
-                <span class = "skills">
-                  <li>
-               Takes direction and welcomes feedback.
-               </li>
-               <li>Can convey and present ideas
-              to an audience. </li> 
-              <li>Adept presenter and comfortable in front of groups.
-              </li>
-              </span></ul>
-            </p>
+            {skillsData.map((skills) => (
+              <div key={skills.id}>
+                <p className="box rounded resume-skills text-center">
+                  {skills.type}
+                  <br />
+                  <span className="skills">{skills.skills}</span>
+                </p>
+                <br />
+              </div>
+            ))}
           </div>
 
           <div className="col-md-6">

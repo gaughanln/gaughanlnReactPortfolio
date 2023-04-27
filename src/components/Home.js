@@ -2,7 +2,6 @@ import React from "react";
 import namepnglg from "./assets/name.png";
 import myPhoto from "./assets/homePhoto.png";
 
-
 function Home() {
   return (
     <div>
@@ -21,9 +20,8 @@ function Home() {
                 previous experience directly into Web Development. I'm
                 passionate about learning and growing, with extreme attention to
                 detail, which provides dedication to any project.
-                <br/>
-                <br/>
-                I am ready to create something that will make the world
+                <br />
+                <br />I am ready to create something that will make the world
                 awesome
               </p>
             </div>

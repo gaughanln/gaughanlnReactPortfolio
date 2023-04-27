@@ -61,7 +61,7 @@ function Header({ currentPage, handlePageChange }) {
               href="#resume"
               onClick={() => handlePageChange("Resume")}
             >
-              Resume
+              Resume 💁🏼‍♀️
             </a>
           </li>
         </ul>

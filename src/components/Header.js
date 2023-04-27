@@ -4,7 +4,7 @@ import namePNG from "./assets/name.png";
 function Header({ currentPage, handlePageChange }) {
   return (
     <>
-      <nav className="navbar navbar- pt-3 ">
+      <nav className="navbar sticky-top navbar- pt-3 ">
         {/* name logo in nav bar */}
         <div className="navbar-brand">
           {currentPage !== "Home" && (

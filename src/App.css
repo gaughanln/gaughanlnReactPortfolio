@@ -30,9 +30,12 @@ li {
 }
 
 .navbar {
-  margin-top: 5%;
+  margin-top: 2%;
   margin-left: 5%;
   margin-right: 5%;
+  top: 0;
+  background-color: transparent;
+  padding-top: 80px;
 }
 
 .home-name,
@@ -133,6 +136,7 @@ border: none;
 
 .home-container, .contact-container, .resume-container {
   padding-top: 5%;
+  /* padding-top: 80px; */
 }
 
 .resume-container {
@@ -158,6 +162,10 @@ border: none;
   padding-top: 3%;
   
 }
+
+/* .project-padding {
+  padding-top: 50px;
+} */
 
 .project-links {
   color: white;

@@ -69,7 +69,7 @@ function Projects() {
   // Project cards
   return (
     <>
-      <div className="row">
+      <div className="row project-padding">
         <div className="col-4 d-none d-md-block">
           <div id="list-example" className="list-group">
             {projectData.map((project) => (

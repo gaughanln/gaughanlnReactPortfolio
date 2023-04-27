@@ -8,6 +8,7 @@ import ecommerce from "./assets/backendScreenshot.png";
 import notes from "./assets/NoteTaker.png";
 
 function Projects() {
+  // Project Data
   const projectData = [
     {
       id: "1",
@@ -32,7 +33,7 @@ function Projects() {
       title: "Portfolio Reworked",
       image: portfolio,
       description:
-        "This is my second attempt at creating and playing around with my portfolio, this time using materialize + CSS to style. Materialize was used for the CityBike project which I didn not get to explore that part as I worked on the Javascript. I wanted to continue learning new programs so I took a stab at this.",
+        "This is my second attempt at creating and playing around with my portfolio, this time using materialize + CSS to style. Materialize was used for the CityBike project which I did not get to explore that part as I worked on the Javascript. I wanted to continue learning new programs so I took a stab at this.",
       github: "https://github.com/gaughanln/Gaughanln-Portfolio",
       website: "https://gaughanln.github.io/Gaughanln-Portfolio/#project1",
     },
@@ -65,15 +66,15 @@ function Projects() {
     },
   ];
 
-  // cards
+  // Project cards
   return (
     <>
-      <div class="row">
-        <div class="col-4 d-none d-md-block">
-          <div id="list-example" class="list-group">
+      <div className="row">
+        <div className="col-4 d-none d-md-block">
+          <div id="list-example" className="list-group">
             {projectData.map((project) => (
               <a
-                class="list-group-item list-group-item-action rounded-pill"
+                className="list-group-item list-group-item-action rounded-pill"
                 href={`#${project.id}`}
               >
                 {project.title}
@@ -82,27 +83,27 @@ function Projects() {
           </div>
         </div>
 
-        <div class="col-8 project-box">
+        <div className="col-8 project-box">
           <div
             data-bs-spy="scroll"
             data-bs-target="#list-example"
             data-bs-smooth-scroll="true"
-            class="scrollspy-example"
+            className="scrollspy-example"
             tabindex="0"
           >
             {projectData.map((project) => (
-              <div id={project.id} class="card text-center">
-                <div class="row">
-                  <div class="col-md-7">
+              <div id={project.id} className="card text-center">
+                <div className="row">
+                  <div className="col-md-7">
                     <img
                       src={project.image}
-                      class="project-images rounded"
+                      className="project-images rounded"
                       alt={project.title}
                     />
                   </div>
-                  <div class="col-md-5">
-                    <h3 class="card-title">{project.title}</h3>
-                    <p class="card-text">{project.description}</p>
+                  <div className="col-md-5">
+                    <h3 className="card-title">{project.title}</h3>
+                    <p className="card-text">{project.description}</p>
                     <a
                       href={project.github}
                       className="project-links rounded-pill"
@@ -110,12 +111,14 @@ function Projects() {
                       github
                     </a>
 
-                    <a
-                      href={project.website}
-                      className="project-links rounded-pill"
-                    >
-                      Website
-                    </a>
+                    {project.website && (
+                      <a
+                        href={project.website}
+                        className="project-links rounded-pill"
+                      >
+                        Website
+                      </a>
+                    )}
                   </div>
                 </div>
               </div>
@@ -123,8 +126,6 @@ function Projects() {
           </div>
         </div>
       </div>
-
-    
     </>
   );
 }

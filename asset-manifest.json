@@ -1,0 +1,28 @@
+{
+  "files": {
+    "main.css": "/gaughanlnreactportfolio/static/css/main.8d240734.css",
+    "main.js": "/gaughanlnreactportfolio/static/js/main.7314f5ed.js",
+    "static/js/787.a1cc1179.chunk.js": "/gaughanlnreactportfolio/static/js/787.a1cc1179.chunk.js",
+    "static/media/homePhoto.png": "/gaughanlnreactportfolio/static/media/homePhoto.f889d66d774b6afd9de6.png",
+    "static/media/gradientBackground.png": "/gaughanlnreactportfolio/static/media/gradientBackground.6549303e95f284a752a9.png",
+    "static/media/portfolioScreenshot.png": "/gaughanlnreactportfolio/static/media/portfolioScreenshot.248d014a3336c7902f37.png",
+    "static/media/CityBike1.png": "/gaughanlnreactportfolio/static/media/CityBike1.84ea8a2f0c7a84ac47ef.png",
+    "static/media/EmployeeRoster.png": "/gaughanlnreactportfolio/static/media/EmployeeRoster.cb35f78aabc1b0c8355d.png",
+    "static/media/skills.png": "/gaughanlnreactportfolio/static/media/skills.517db7202daf57bf95b8.png",
+    "static/media/PlaylistMania.png": "/gaughanlnreactportfolio/static/media/PlaylistMania.61bded2fc3cee8e40446.png",
+    "static/media/backendScreenshot.png": "/gaughanlnreactportfolio/static/media/backendScreenshot.ce142a733b043335796e.png",
+    "static/media/inTouch.png": "/gaughanlnreactportfolio/static/media/inTouch.3a6ef0193a24e26a82ac.png",
+    "static/media/NoteTaker.png": "/gaughanlnreactportfolio/static/media/NoteTaker.15b6e8e1dfb8d5622a01.png",
+    "static/media/gaughanlnResume.pdf": "/gaughanlnreactportfolio/static/media/gaughanlnResume.99948f3ea8cd8df68f0f.pdf",
+    "static/media/name.png": "/gaughanlnreactportfolio/static/media/name.85b6537b0f25c4ae4f86.png",
+    "static/media/github.png": "/gaughanlnreactportfolio/static/media/github.ffa137c35ab768328eae.png",
+    "index.html": "/gaughanlnreactportfolio/index.html",
+    "main.8d240734.css.map": "/gaughanlnreactportfolio/static/css/main.8d240734.css.map",
+    "main.7314f5ed.js.map": "/gaughanlnreactportfolio/static/js/main.7314f5ed.js.map",
+    "787.a1cc1179.chunk.js.map": "/gaughanlnreactportfolio/static/js/787.a1cc1179.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.8d240734.css",
+    "static/js/main.7314f5ed.js"
+  ]
+}

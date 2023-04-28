@@ -29,7 +29,7 @@ function Resume() {
       <div className="container contact-container ">
         <div className="row h-100">
           <div className="col-md-6 my-auto text-center">
-            <a href={resume} download="LindseyGaughanResume" target="_blank">
+            <a href={resume} download="LindseyGaughanResume" target="_blank" rel="noreferrer">
               <button type="button" className="btn btn-lg resume rounded-pill">
                 Download Resume 💾
               </button>

@@ -1,5 +1,5 @@
 import React from "react";
-import contact from "./assets/inTouch.png";
+import contact from "../assets/inTouch.png";
 
 function Contact() {
   return (

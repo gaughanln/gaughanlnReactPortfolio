@@ -4,7 +4,7 @@
 
 body {
   /* display: flex; */
-  background-image: url("./components/assets/gradientBackground.png");
+  background-image: url("./assets/gradientBackground.png");
   background-repeat: no-repeat;
   background-size: cover;
   position: relative;

@@ -1,11 +1,11 @@
 import React from "react";
 
-import playlist from "./assets/PlaylistMania.png";
-import cityBike from "./assets/CityBike1.png";
-import employeeRoster from "./assets/EmployeeRoster.png";
-import portfolio from "./assets/portfolioScreenshot.png";
-import ecommerce from "./assets/backendScreenshot.png";
-import notes from "./assets/NoteTaker.png";
+import playlist from "../assets/PlaylistMania.png";
+import cityBike from "../assets/CityBike1.png";
+import employeeRoster from "../assets/EmployeeRoster.png";
+import portfolio from "../assets/portfolioScreenshot.png";
+import ecommerce from "../assets/backendScreenshot.png";
+import notes from "../assets/NoteTaker.png";
 
 function Projects() {
   // Project Data

@@ -12,7 +12,7 @@ Welcome to my newest portfolio, created with React! Inside you'll find informati
 ## End Product 
 Below is a screenshot of my portfolio.
 
-![screenshot of Lindsey Gaughan finished portfolio](./src/components/assets/PortfolioDeploy.png)
+![screenshot of Lindsey Gaughan finished portfolio](./src/assets/PortfolioDeploy.png)
 
 ## Deployment
 

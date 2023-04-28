@@ -1,6 +1,6 @@
 import React from "react";
-import namepnglg from "./assets/name.png";
-import myPhoto from "./assets/homePhoto.png";
+import namepnglg from "../assets/name.png";
+import myPhoto from "../assets/homePhoto.png";
 
 function Home() {
   return (

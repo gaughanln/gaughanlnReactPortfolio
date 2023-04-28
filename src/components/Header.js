@@ -1,5 +1,5 @@
 import React from "react";
-import namePNG from "./assets/name.png";
+import namePNG from "../assets/name.png";
 
 function Header({ currentPage, handlePageChange }) {
   return (

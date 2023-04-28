@@ -16,7 +16,7 @@ Below is a screenshot of my portfolio.
 
 ## Deployment
 
-Here is the [link](https://github.com/gaughanln/gaughanlnReactPortfolio) to my portfolio.
+Here is the [link](https://gaughanln.github.io/gaughanlnReactPortfolio/) to my portfolio.
 
 ## Contributing
 Lindsey Gaughan (Me!)

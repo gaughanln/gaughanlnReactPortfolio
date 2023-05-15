@@ -6,6 +6,7 @@ import employeeRoster from "../assets/EmployeeRoster.png";
 import portfolio from "../assets/portfolioScreenshot.png";
 import ecommerce from "../assets/backendScreenshot.png";
 import notes from "../assets/NoteTaker.png";
+import brewtique from "../assets/brewtique.png"
 
 function Projects() {
   // Project Data
@@ -30,6 +31,15 @@ function Projects() {
     },
     {
       id: "3",
+      title: "Brew-tique",
+      image: brewtique,
+      description:
+        "The final group project for my coding bootcamp. Within this project, we created react ",
+      github: "https://github.com/gaughanln/Gaughanln-Portfolio",
+      website: "https://gaughanln.github.io/Gaughanln-Portfolio/#project1",
+    },
+    {
+      id: "4",
       title: "Portfolio Reworked",
       image: portfolio,
       description:
@@ -38,7 +48,7 @@ function Projects() {
       website: "https://gaughanln.github.io/Gaughanln-Portfolio/#project1",
     },
     {
-      id: "4",
+      id: "5",
       title: "Employee Roster",
       image: employeeRoster,
       description:
@@ -47,7 +57,7 @@ function Projects() {
       website: null,
     },
     {
-      id: "5",
+      id: "6",
       title: "Note Taker",
       image: notes,
       description:
@@ -56,7 +66,7 @@ function Projects() {
       website: "https://gaughanlnnotesaver.herokuapp.com/",
     },
     {
-      id: "6",
+      id: "7",
       title: "Backend eCommerce",
       image: ecommerce,
       description:

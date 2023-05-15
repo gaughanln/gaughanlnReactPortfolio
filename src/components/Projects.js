@@ -34,9 +34,9 @@ function Projects() {
       title: "Brew-tique",
       image: brewtique,
       description:
-        "The final group project for my coding bootcamp. Within this project, we created react ",
-      github: "https://github.com/gaughanln/Gaughanln-Portfolio",
-      website: "https://gaughanln.github.io/Gaughanln-Portfolio/#project1",
+        "This project uses React for the front end, GraphQL with a Node.js and Express.js server, and used MongoDB + Mongoose ODM for the database. The concept is a monthly coffee subscription website that sources new items each month from all over, right to your door. At Brewtique, we specialize in finding and curating the best niche coffee from around the world, so you can experience something new and exciting each morning! ",
+      github: "https://github.com/gaughanln/Brew-tique",
+      website: "https://brewtique.herokuapp.com",
     },
     {
       id: "4",

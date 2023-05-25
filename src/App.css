@@ -17,7 +17,7 @@ body {
 h1,
 p,
 h3,
-h4, h6 {
+h4, h2 {
   color: white;
 }
 
@@ -51,7 +51,7 @@ li {
 
 .contact-pic {
   margin-left: 10%;
-  width: 90%;
+  width: 80%;
 }
 
 .about-me {
@@ -101,11 +101,6 @@ color: white;
 font-size: 25px;
 margin: 2px;
 border: none;
-}
-
-.project-images {
-  margin-bottom: 10px;
-  max-width: 100%;
 }
 
 .nav-link {
@@ -174,7 +169,7 @@ border: none;
   margin: 15px;
   font-weight: bold;
   background-color:blueviolet;
-  font-size: 22px;
+  font-size: 16px;
 }
 
 .card-text {
@@ -222,5 +217,39 @@ margin-bottom: 10%;
   bottom: 0;
   height: 60px;   
   justify-content: center;
+  position:static;
 }
 
+
+.swiper {
+  width: 80%;
+  padding-top: 60px;
+  /* padding-bottom: 10px; */
+}
+
+.swiper-slide {
+  background-position: center;
+  background-size:cover;
+  width: 300px;
+  height: 100%;
+}
+
+.swiper-slide img {
+  display: block;
+  width:90%;
+}
+
+.project-title {
+  padding-top: 8px;
+}
+
+.project-pics {
+  /* max-height: 300px; */
+}
+
+.email {
+  font-size: 22px;
+}
+
+.contact-info {
+align-items: center;}

@@ -221,11 +221,11 @@ margin-bottom: 10%;
 }
 
 
-.swiper {
+/* .swiper {
   width: 80%;
   padding-top: 60px;
   /* padding-bottom: 10px; */
-}
+
 
 .swiper-slide {
   background-position: center;
@@ -243,9 +243,7 @@ margin-bottom: 10%;
   padding-top: 8px;
 }
 
-.project-pics {
-  /* max-height: 300px; */
-}
+
 
 .email {
   font-size: 22px;

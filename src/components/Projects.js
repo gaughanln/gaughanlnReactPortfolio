@@ -97,7 +97,7 @@ function Projects() {
             slideShadows: true,
           }}
           loop={true}
-          pagination={true}
+          pagination={false}
           modules={[EffectCoverflow, Pagination]}
           className="mySwiper"
           breakpoints={{

@@ -1,6 +1,6 @@
 import React from "react";
 import skills from "../assets/skills.png";
-import resume from "../assets/gaughanlnResume.pdf";
+import resume from "../assets/LindseyGaughanResume.pdf";
 
 function Resume() {
   const skillsData = [

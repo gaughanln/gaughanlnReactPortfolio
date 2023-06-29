@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/gaughanlnReactPortfolio/static/css/main.6349744e.css",
-    "main.js": "/gaughanlnReactPortfolio/static/js/main.5b2149f1.js",
+    "main.css": "/gaughanlnReactPortfolio/static/css/main.0c0957a8.css",
+    "main.js": "/gaughanlnReactPortfolio/static/js/main.f0117755.js",
     "static/js/787.a1cc1179.chunk.js": "/gaughanlnReactPortfolio/static/js/787.a1cc1179.chunk.js",
     "static/media/homePhoto.png": "/gaughanlnReactPortfolio/static/media/homePhoto.f889d66d774b6afd9de6.png",
     "static/media/gradientBackground.png": "/gaughanlnReactPortfolio/static/media/gradientBackground.6549303e95f284a752a9.png",
@@ -13,17 +13,17 @@
     "static/media/PlaylistMania.png": "/gaughanlnReactPortfolio/static/media/PlaylistMania.61bded2fc3cee8e40446.png",
     "static/media/backendScreenshot.png": "/gaughanlnReactPortfolio/static/media/backendScreenshot.ce142a733b043335796e.png",
     "static/media/inTouch.png": "/gaughanlnReactPortfolio/static/media/inTouch.3a6ef0193a24e26a82ac.png",
+    "static/media/LindseyGaughanResume.pdf": "/gaughanlnReactPortfolio/static/media/LindseyGaughanResume.76f4f902acf20c6eac46.pdf",
     "static/media/NoteTaker.png": "/gaughanlnReactPortfolio/static/media/NoteTaker.15b6e8e1dfb8d5622a01.png",
-    "static/media/gaughanlnResume.pdf": "/gaughanlnReactPortfolio/static/media/gaughanlnResume.99948f3ea8cd8df68f0f.pdf",
     "static/media/name.png": "/gaughanlnReactPortfolio/static/media/name.85b6537b0f25c4ae4f86.png",
     "static/media/github.png": "/gaughanlnReactPortfolio/static/media/github.ffa137c35ab768328eae.png",
     "index.html": "/gaughanlnReactPortfolio/index.html",
-    "main.6349744e.css.map": "/gaughanlnReactPortfolio/static/css/main.6349744e.css.map",
-    "main.5b2149f1.js.map": "/gaughanlnReactPortfolio/static/js/main.5b2149f1.js.map",
+    "main.0c0957a8.css.map": "/gaughanlnReactPortfolio/static/css/main.0c0957a8.css.map",
+    "main.f0117755.js.map": "/gaughanlnReactPortfolio/static/js/main.f0117755.js.map",
     "787.a1cc1179.chunk.js.map": "/gaughanlnReactPortfolio/static/js/787.a1cc1179.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.6349744e.css",
-    "static/js/main.5b2149f1.js"
+    "static/css/main.0c0957a8.css",
+    "static/js/main.f0117755.js"
   ]
 }

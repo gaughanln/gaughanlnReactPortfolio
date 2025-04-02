@@ -14,15 +14,9 @@ function Home() {
             {/* text box */}
             <div className="my-auto box rounded d-flex about-box justify-content-evenly">
               <p className="about-me quote-wrapper text-center">
-                I am an aspiring Full Stack Web Developer/Software Engineer with
-                a background in Marketing, Project Management and Graphic
-                Design. I have a creative eye that translates through my
-                previous experience directly into Web Development. I'm
-                passionate about learning and growing, with extreme attention to
-                detail, which provides dedication to any project.
+              Hey there! I’m a marketing and communications pro who loves turning ideas into action. I thrive on managing projects, creating engaging digital content, and finding smarter ways to get things done. Whether I’m building websites, optimizing workflows, or leading teams, I’m always looking for creative solutions that make an impact. Fast-paced environments? I live for them! If it involves strategy, storytelling, or streamlining processes, I’m all in.
                 <br />
-                <br />I am ready to create something that will make the world
-                awesome
+                <br />A few years ago, I took a deep dive into the world of coding and completed a Full Stack Development bootcamp. I wanted to bridge the gap between marketing and tech—because let’s be real, digital strategy is so much more powerful when you understand how the backend works too. Now, whether I’m optimizing websites, troubleshooting technical issues, or collaborating with developers, I bring both creative and technical skills to the table. And while I love applying this knowledge to marketing, I’d also be open to a Junior Developer role where I can keep growing and building awesome things!
               </p>
             </div>
           </div>

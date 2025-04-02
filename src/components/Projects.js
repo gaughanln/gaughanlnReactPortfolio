@@ -23,7 +23,6 @@ function Projects() {
       description:
         "With Playlist Mania you will be able to search for an artist and explore new songs to add to your favorites and generate your own playlist. The search results will give you samples to listen to so you can decide if you like it before you download it.",
       github: "https://github.com/gaughanln/PlaylistMania",
-      website: "https://playlist-mania-gp2.herokuapp.com/",
     },
     {
       id: "2",
@@ -32,7 +31,6 @@ function Projects() {
       description:
         "If you enjoy traveling the great outdoors then CityBike Finder is for you. Search whatever city you are visiting and get a list of local CityBikes along with the local weather to plan your perfect day out!",
       github: "https://github.com/LemonDropping/city-bike-proj",
-      website: "https://lemondropping.github.io/city-bike-proj/",
     },
     {
       id: "3",
@@ -41,7 +39,6 @@ function Projects() {
       description:
         "This project uses React for the front end, GraphQL with a Node.js and Express.js server, and used MongoDB + Mongoose ODM for the database. The concept is a monthly coffee subscription website that sources new items each month from all over, right to your door. At Brewtique, we specialize in finding and curating the best niche coffee from around the world, so you can experience something new and exciting each morning! ",
       github: "https://github.com/gaughanln/Brew-tique",
-      website: "https://brewtique.herokuapp.com",
     },
     {
       id: "4",
@@ -59,7 +56,7 @@ function Projects() {
       description:
         "This project incorporates working in the command line to create and edit an employee database that in turn can be produced via html. The project was not deployed to a live website.",
       github: "https://github.com/gaughanln/employeeRoster",
-      website: null,
+
     },
     {
       id: "6",
@@ -68,7 +65,7 @@ function Projects() {
       description:
         "This application is used to write and save notes using express.js back end and will save and retrieve note data from the JSON file. This application was deployed through Heroku.",
       github: "https://github.com/gaughanln/noteTaker",
-      website: "https://gaughanlnnotesaver.herokuapp.com/",
+
     },
     {
       id: "7",

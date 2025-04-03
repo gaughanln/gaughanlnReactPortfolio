@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/gaughanlnReactPortfolio/static/css/main.8e803314.css",
-    "main.js": "/gaughanlnReactPortfolio/static/js/main.bdfd5c95.js",
+    "main.js": "/gaughanlnReactPortfolio/static/js/main.c90291ec.js",
     "static/js/787.a1cc1179.chunk.js": "/gaughanlnReactPortfolio/static/js/787.a1cc1179.chunk.js",
     "static/media/homePhoto.png": "/gaughanlnReactPortfolio/static/media/homePhoto.f889d66d774b6afd9de6.png",
     "static/media/JulyNewsletter.png": "/gaughanlnReactPortfolio/static/media/JulyNewsletter.ef92edd3a42e5bd97cb9.png",
@@ -16,7 +16,6 @@
     "static/media/COHInsert1.png": "/gaughanlnReactPortfolio/static/media/COHInsert1.0bc0b22b4fd865735223.png",
     "static/media/skills.png": "/gaughanlnReactPortfolio/static/media/skills.517db7202daf57bf95b8.png",
     "static/media/PlaylistMania.png": "/gaughanlnReactPortfolio/static/media/PlaylistMania.61bded2fc3cee8e40446.png",
-    "static/media/backendScreenshot.png": "/gaughanlnReactPortfolio/static/media/backendScreenshot.ce142a733b043335796e.png",
     "static/media/inTouch.png": "/gaughanlnReactPortfolio/static/media/inTouch.3a6ef0193a24e26a82ac.png",
     "static/media/LindseyGaughanResume.pdf": "/gaughanlnReactPortfolio/static/media/LindseyGaughanResume.9d048670184ed170812f.pdf",
     "static/media/name.png": "/gaughanlnReactPortfolio/static/media/name.85b6537b0f25c4ae4f86.png",
@@ -24,11 +23,11 @@
     "static/media/github.png": "/gaughanlnReactPortfolio/static/media/github.ffa137c35ab768328eae.png",
     "index.html": "/gaughanlnReactPortfolio/index.html",
     "main.8e803314.css.map": "/gaughanlnReactPortfolio/static/css/main.8e803314.css.map",
-    "main.bdfd5c95.js.map": "/gaughanlnReactPortfolio/static/js/main.bdfd5c95.js.map",
+    "main.c90291ec.js.map": "/gaughanlnReactPortfolio/static/js/main.c90291ec.js.map",
     "787.a1cc1179.chunk.js.map": "/gaughanlnReactPortfolio/static/js/787.a1cc1179.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.8e803314.css",
-    "static/js/main.bdfd5c95.js"
+    "static/js/main.c90291ec.js"
   ]
 }

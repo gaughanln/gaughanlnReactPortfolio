@@ -1,13 +1,14 @@
 {
   "files": {
     "main.css": "/gaughanlnReactPortfolio/static/css/main.8e803314.css",
-    "main.js": "/gaughanlnReactPortfolio/static/js/main.60bafb00.js",
+    "main.js": "/gaughanlnReactPortfolio/static/js/main.bdfd5c95.js",
     "static/js/787.a1cc1179.chunk.js": "/gaughanlnReactPortfolio/static/js/787.a1cc1179.chunk.js",
     "static/media/homePhoto.png": "/gaughanlnReactPortfolio/static/media/homePhoto.f889d66d774b6afd9de6.png",
     "static/media/JulyNewsletter.png": "/gaughanlnReactPortfolio/static/media/JulyNewsletter.ef92edd3a42e5bd97cb9.png",
     "static/media/COHBrochure1.png": "/gaughanlnReactPortfolio/static/media/COHBrochure1.4f67373fdfb3c2607710.png",
     "static/media/COHBrochure2.png": "/gaughanlnReactPortfolio/static/media/COHBrochure2.15d90df847eed8d24fc3.png",
     "static/media/gradientBackground.png": "/gaughanlnReactPortfolio/static/media/gradientBackground.6549303e95f284a752a9.png",
+    "static/media/HoustonWaterBill.png": "/gaughanlnReactPortfolio/static/media/HoustonWaterBill.c75a0a5eee6c5c31a175.png",
     "static/media/portfolioScreenshot.png": "/gaughanlnReactPortfolio/static/media/portfolioScreenshot.248d014a3336c7902f37.png",
     "static/media/CityBike1.png": "/gaughanlnReactPortfolio/static/media/CityBike1.84ea8a2f0c7a84ac47ef.png",
     "static/media/brewtique.png": "/gaughanlnReactPortfolio/static/media/brewtique.d36e1393716ca6b31e88.png",
@@ -23,11 +24,11 @@
     "static/media/github.png": "/gaughanlnReactPortfolio/static/media/github.ffa137c35ab768328eae.png",
     "index.html": "/gaughanlnReactPortfolio/index.html",
     "main.8e803314.css.map": "/gaughanlnReactPortfolio/static/css/main.8e803314.css.map",
-    "main.60bafb00.js.map": "/gaughanlnReactPortfolio/static/js/main.60bafb00.js.map",
+    "main.bdfd5c95.js.map": "/gaughanlnReactPortfolio/static/js/main.bdfd5c95.js.map",
     "787.a1cc1179.chunk.js.map": "/gaughanlnReactPortfolio/static/js/787.a1cc1179.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.8e803314.css",
-    "static/js/main.60bafb00.js"
+    "static/js/main.bdfd5c95.js"
   ]
 }

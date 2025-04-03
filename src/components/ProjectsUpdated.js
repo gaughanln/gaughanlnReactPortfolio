@@ -8,7 +8,7 @@ import playlist from "../assets/PlaylistMania.png";
 import cityBike from "../assets/CityBike1.png";
 import employeeRoster from "../assets/EmployeeRoster.png";
 import portfolio from "../assets/portfolioScreenshot.png";
-import ecommerce from "../assets/backendScreenshot.png";
+//import ecommerce from "../assets/backendScreenshot.png";
 import brewtique from "../assets/brewtique.png";
 import brochure1 from "../assets/COHBrochure1.png";
 import brochure2 from "../assets/COHBrochure2.png";
@@ -23,16 +23,16 @@ export default function App() {
   const localImages = [
     playlist,
     brochure1,
-    brochure2,
     bill,
-    cityBike,
-    cohinsert,
     brewtique,
-    portfolio,
+    cohinsert,
     paymentus,
     newsletter,
-    ecommerce,
+    portfolio,
     employeeRoster,
+    cityBike,
+    brochure2,
+
   ];
 
 

@@ -32,7 +32,7 @@ function Header({ currentPage, handlePageChange }) {
           </li>
 
           {/* projects */}
-          <li className="nav-item">
+          {/*<li className="nav-item">
             <a
               className="nav-link rounded-pill"
               href="#projects"
@@ -40,6 +40,18 @@ function Header({ currentPage, handlePageChange }) {
             >
               Projects
             </a>
+            </li>}
+
+             {/* projects Updated */}
+          <li className="nav-item">
+            <a
+              className="nav-link rounded-pill"
+              href="#projectsUpdated"
+              onClick={() => handlePageChange("ProjectsUpdated")}
+            >
+              Projects
+            </a>
+            
 
             {/* contact */}
           </li>

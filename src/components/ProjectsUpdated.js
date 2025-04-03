@@ -15,6 +15,7 @@ import brochure2 from "../assets/COHBrochure2.png";
 import cohinsert from "../assets/COHInsert1.png";
 import newsletter from "../assets/JulyNewsletter.png";
 import paymentus from "../assets/PaymentusInsert.png";
+import bill from "../assets/HoustonWaterBill.png";
 
 
 export default function App() {
@@ -23,6 +24,7 @@ export default function App() {
     playlist,
     brochure1,
     brochure2,
+    bill,
     cityBike,
     cohinsert,
     brewtique,
